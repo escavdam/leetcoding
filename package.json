@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "install": "^0.13.0",
+    "jest": "^29.7.0"
+  },
+  "name": "leetcoding",
+  "description": "Ejercicios de leetcoding para JS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
