@@ -4,7 +4,19 @@
 // 1^3 + 5^3 + 3^3 = 153
 // 153 es narcisista, devolverá true
 
-const isNarcissist = () =>
+const isNarcissist = (n) => {
+    
+    const arrStrings = n.toString().split("")
+    const arrNumeros = arrStrings.map(char =>parseInt(char))
+    const arrayPotencias = arrNumeros.map(numero => Math.pow(numero, arrNumeros.length))
+    const resultado = arrayPotencias.reduce((acumulador, valor) => acumulador + valor, 0)
+    console.log(resultado)
+    return resultado === n
+}
+
+console.log(isNarcissist(153))
+isNarcissist(153)
 
 module.exports = isNarcissist
 
+//node .\ejercicios\numeros_narcisistas.js
