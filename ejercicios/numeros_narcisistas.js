@@ -5,12 +5,13 @@
 // 153 es narcisista, devolverá true
 
 const isNarcissist = (num) =>{
-    const numString = num.toString();
-    const arrNumeros = numString.split("")
-    const arrPotencias = arrNumeros.map(x=> Math.pow(parseInt(x),arrNumeros.length));
-    console.log(arrNumeros)
+    const numString = num.toString().split("");
+    const arrNumeros = numString.map(char => parseInt(char));
+    const arrPotencias = arrNumeros.map(numero => Math.pow(numero,arrNumeros.length));
+    const resultado = arrPotencias.reduce((acumulador, valor) => acumulador + valor, 0)
+    return resultado === num
 }
+console.log(isNarcissist(153))
 
-isNarcissist(153)
 module.exports = isNarcissist
 
