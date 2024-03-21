@@ -4,7 +4,14 @@
 // 1^3 + 5^3 + 3^3 = 153
 // 153 es narcisista, devolverá true
 
-const isNarcissist = () =>
+const isNarcissist = (num) => {
+    const numString = num.toString()
+    const arrNumeros = numString.split("")
+    const arrPotencia = arrNumeros(irwm =>)
+}
+
+
+isNarcissist(212)
 
 module.exports = isNarcissist
 
