@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "install": "^0.13.0",
     "jest": "^29.7.0"
   },
   "name": "leetcoding",
@@ -11,7 +10,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "probar_reverse": "node ./ejercicios/stopreversing.js"
   },
   "keywords": [],
   "author": "",
