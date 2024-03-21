@@ -4,7 +4,14 @@
 // 1^3 + 5^3 + 3^3 = 153
 // 153 es narcisista, devolverá true
 
-const isNarcissist = () =>
+const isNarcissist = (num) => {
+    const arrayStr = num.toString().split("");
+    const arrayNum = arrayStr.map(char => parseInt(char));
+    const arrayPow = arrayNum.map(num => Math.pow(num, arrayNum.length));
+    const resultado = arrayPow.reduce((acumulador, valor) => acumulador + valor, 0);
+    return resultado === num;
+}
+
+console.log(isNarcissist(153));
 
 module.exports = isNarcissist
-
