@@ -11,6 +11,33 @@
 // hola => h0l4
 //no puedes usar objetos, ni ifs, ni bucles.
 
-const leet = () => 
+const leet = (str) => {
+  const miMapa = new Map();
+  miMapa.set("o", "0")
+  miMapa.set("O", "0")
+  miMapa.set("i", "1")
+  miMapa.set("I", "1")
+  miMapa.set("e", "3")
+  miMapa.set("E", "3")
+  miMapa.set("a", "4")
+  miMapa.set("A", "4")
+  miMapa.set("s", "5")
+  miMapa.set("S", "5")
+  miMapa.set("t", "7")
+  miMapa.set("T", "7")
+  miMapa.set("b", "8")
+  miMapa.set("B", "8")
+  miMapa.set("g", "9")
+  miMapa.set("G", "9")
+  return str.split("").map(caracter => miMapa.has(caracter) 
+  ? 
+  miMapa.get(caracter) 
+  : 
+  caracter)
+  .join("");
+  
+}
+
+console.log(leet("Te has vendido como la mejor madre del mundo y mamá, perdóname, ¡pero no lo eres!"));
 
 module.exports = leet
