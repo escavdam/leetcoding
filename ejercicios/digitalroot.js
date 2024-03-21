@@ -6,6 +6,4 @@
 
 const digitalRoot = () =>
 
-module.exports = {
-    digitalRoot
-}
+module.exports = digitalRoot

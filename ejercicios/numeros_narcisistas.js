@@ -6,6 +6,5 @@
 
 const isNarcissist = () =>
 
-module.exports = {
-    isNarcissist
-}
+module.exports = isNarcissist
+

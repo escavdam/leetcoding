@@ -5,6 +5,4 @@
 
 const needle = () =>
 
-module.exports = {
-    needle
-}
+module.exports = needle

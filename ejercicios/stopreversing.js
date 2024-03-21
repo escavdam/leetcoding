@@ -6,6 +6,4 @@
 
 const reverse = () => 
 
-module.exports = {
-    reverse
-}
+module.exports = reverse

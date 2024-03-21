@@ -10,6 +10,4 @@
 
 const separator = () =>
 
-module.exports = {
-    separator
-}
+module.exports = separator

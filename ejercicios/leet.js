@@ -13,6 +13,4 @@
 
 const leet = () => 
 
-module.exports = {
-    leet
-}
+module.exports = leet

@@ -6,7 +6,5 @@
 
 const capitalize = () =>
 
-module.exports = {
-    capitalize
-}
+module.exports = capitalize
 

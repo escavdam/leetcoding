@@ -11,6 +11,4 @@
 
 const dna = () =>
 
-module.exports = {
-    dna
-}
+module.exports = dna
