@@ -11,7 +11,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "probar_reverse": "node ./ejercicios/stopreversing.js"
   },
   "keywords": [],
   "author": "",
