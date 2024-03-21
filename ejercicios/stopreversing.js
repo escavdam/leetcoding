@@ -33,7 +33,11 @@
 //       return str.split("").reverse().join("")
 //     }
 
-    const reverse = (str) => str.split("").reverse().join("")
+    const reverse = (str) => str.split("")
+    .reverse()
+    .join("")
+    
+    
     console.log(reverse("Donde caemos gente"))
     
     module.exports = reverse
