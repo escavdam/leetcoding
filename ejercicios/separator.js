@@ -8,6 +8,6 @@
 // Output: "Laoaraeama aiapasauama"
 // Sólo puedes usar una linea de código
 
-const separator = () =>
+const separator = (str, separator) =>
 
 module.exports = separator

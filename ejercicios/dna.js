@@ -9,6 +9,6 @@
 //Input: "ACGUACGU"
 //Output: "ACGTACGT"
 
-const dna = () =>
+const dna = (str) =>
 
 module.exports = dna

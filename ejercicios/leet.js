@@ -11,6 +11,6 @@
 // hola => h0l4
 //no puedes usar objetos, ni ifs, ni bucles.
 
-const leet = () => 
+const leet = (str) => 
 
 module.exports = leet

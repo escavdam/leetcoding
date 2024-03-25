@@ -6,6 +6,6 @@ const path = require('path')
 const libro = fs.readFileSync(path.join(__dirname, "./biblia.txt"), 'utf-8')
 
 const cuentaPalabras = (str) => console.log(str)
-
 cuentaPalabras(libro)
+
 module.exports = cuentaPalabras
