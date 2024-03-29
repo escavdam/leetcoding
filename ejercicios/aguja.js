@@ -3,6 +3,11 @@
 //Input: ["gato", "pan", "aguja", "coche"]
 //Output: 2
 
-const needle = () =>
+const needle = (aguja) =>{
+    for (let i = 0; i < aguja.length; i++){
+        if(aguja[i] === 'aguja') return i;
+    }
+}
 
+console.log(needle(['gato', 'pan', 'aguja', 'coche']));
 module.exports = needle
