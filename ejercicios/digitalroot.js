@@ -4,6 +4,14 @@
 // 942 tiene raiz digital 6
 // Solo puedes usar una linea de código
 
-const digitalRoot = () =>
+const digitalRoot = (num) => 
+  (num = num.toString(), num = num.split(''))
+    .reduce((a, b) => parseInt(a, 10) + parseInt(b, 10), 0)
+    .toString()
+    .split('')
+    .reduce((a, b) => parseInt(a, 10) + parseInt(b, 10), 0)
+    .toString();
+
+console.log(digitalRoot(942));
 
 module.exports = digitalRoot
