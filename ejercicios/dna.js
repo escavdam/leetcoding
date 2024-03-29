@@ -9,6 +9,9 @@
 //Input: "ACGUACGU"
 //Output: "ACGTACGT"
 
-const dna = () =>
-
+const dna = (rna) => {
+  const dnaStr = rna.replace(/U/g, 'T')
+  return dnaStr;
+};
+console.log(dna("ACGU"));
 module.exports = dna
