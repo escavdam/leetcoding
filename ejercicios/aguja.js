@@ -3,6 +3,8 @@
 //Input: ["gato", "pan", "aguja", "coche"]
 //Output: 2
 
-const needle = (array) =>
+const mi_lista = ["gato", "pan", "aguja", "coche"];
+
+const needle = mi_lista.indexOf("aguja");
 
 module.exports = needle
