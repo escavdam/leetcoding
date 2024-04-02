@@ -11,6 +11,7 @@
 // hola => h0l4
 //no puedes usar objetos, ni ifs, ni bucles.
 
+<<<<<<< HEAD
 const leet = (str) => {
     const miMapa = new Map()
     miMapa.set("o","0")
@@ -32,5 +33,8 @@ const leet = (str) => {
     const result = str.split("").map(caracter => miMapa.has(caracter) ? miMapa.get(caracter) : caracter)
     console.log(miMapa.get("A"))
 } 
+=======
+const leet = (str) => 
+>>>>>>> main
 
 module.exports = leet

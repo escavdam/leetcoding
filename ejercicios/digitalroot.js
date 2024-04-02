@@ -4,6 +4,6 @@
 // 942 tiene raiz digital 6
 // Solo puedes usar una linea de código
 
-const digitalRoot = () =>
+const digitalRoot = (n) =>
 
 module.exports = digitalRoot

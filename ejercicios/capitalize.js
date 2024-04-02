@@ -4,7 +4,7 @@
 // lorem ipsum => Lorem ipsum
 // Solo puedes usar una linea de código
 
-const capitalize = () =>
+const capitalize = (str) =>
 
 module.exports = capitalize
 
