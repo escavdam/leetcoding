@@ -3,6 +3,6 @@
 //Input: ["gato", "pan", "aguja", "coche"]
 //Output: 2
 
-const needle = () =>
+const needle = (array) =>
 
 module.exports = needle

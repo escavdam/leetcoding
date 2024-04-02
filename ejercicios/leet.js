@@ -11,6 +11,7 @@
 // hola => h0l4
 //no puedes usar objetos, ni ifs, ni bucles.
 
+<<<<<<< HEAD
 const leet = (str) => {
     const miMapa = new Map();
     miMapa.set("o", "0")
@@ -34,5 +35,8 @@ const leet = (str) => {
 }
 
 console.log(leet("me cago en la puta"))
+=======
+const leet = (str) => 
+>>>>>>> origin/main
 
 module.exports = leet
