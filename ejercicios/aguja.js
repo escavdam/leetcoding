@@ -3,6 +3,10 @@
 //Input: ["gato", "pan", "aguja", "coche"]
 //Output: 2
 
-const needle = () =>
+const array1 = ["gato", "pan", "aguja", "coche"]
+
+const output = array1.indexOf("aguja");
+
+console.log(output)
 
 module.exports = needle
